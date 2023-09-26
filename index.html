@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
@@ -9,7 +9,7 @@
   </head>
   <body>
     <!-- Header -->
-    <header data-bs-theme="dark">
+    <header>
       <!-- navbar -->
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
@@ -41,6 +41,7 @@
 
     <!-- Main -->
     <main>
+      <!-- Carousel  -->
       <div id="carouselPhoto" class="carousel slide">
         <div class="carousel-indicators">
           <button
@@ -106,7 +107,87 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+      <!-- end of carousel -->
+
+      <hr class="featurette-divider" />
+
+      <!-- Projects -->
+      <div class="container marketing">
+        <!-- Content 1 -->
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">
+              First Project Laravel
+            </h2>
+            <p class="lead">Create Simple CRUD Laravel</p>
+          </div>
+          <div class="col-md-5">
+            <img
+              src="/images/laravel_logo.png"
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              alt="Laravel"
+            />
+            <title>Placeholder</title>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <!-- Content 2 -->
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal">
+              Create simple CRUD Express JS
+            </h2>
+          </div>
+          <div class="col-md-5">
+            <img
+              src="/images/express.png"
+              width="500"
+              height="500"
+              alt="express"
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              alt="Express"
+            />
+          </div>
+        </div>
+      </div>
     </main>
+
+    <!-- Footer -->
+    <footer class="container">
+      <div
+        class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top"
+      >
+        <div class="col mb-3"><p class="text-body-secondary">@ 2023</p></div>
+        <div class="col mb-3"></div>
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="" class="nav-link p-0 text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="" class="nav-link p-0 text-body-secondary">About</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="" class="nav-link p-0 text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="" class="nav-link p-0 text-body-secondary">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
     <script src="/bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
